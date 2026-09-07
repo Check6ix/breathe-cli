@@ -2,6 +2,23 @@
 
 Continuous improvement log. Each session ends with a brief review: what went well, what didn't, what to change. This is the POOGI (Process Of Ongoing Improvement) record for this project.
 
+## 2026-09-07 — Refine #35; file completion chime + technique research
+
+User asked to park polished Issues for eyes-closed cues (pre-beep + completion sound) and nose/mouth & chest/belly research. Checked open Issues first: [#35](https://github.com/marekkowalczyk/breathe-cli/issues/35) already covered eyes-closed audio. Refined #35 with anticipatory pre-beep; split session-end reward to [#36](https://github.com/marekkowalczyk/breathe-cli/issues/36); filed technique research as [#37](https://github.com/marekkowalczyk/breathe-cli/issues/37) (distinct from pattern research #8). No product code. Measured at close: 85 tests OK; tip `1.14.0 2026-08-31T09:29`; VERSION sync OK; nothing to release; unpushed 0 before this close commit.
+
+**What went well:**
+- **Overlap → refine, don’t duplicate** — #35 edited in place; new concerns became siblings (#36, #37).
+- **One concern held** — phase pre-beep (eyes-closed pacing) separated from completion reward chime and from technique docs research.
+- **File-only held** — Issues + roadmap “already covered” prune only.
+
+**What didn't go well:**
+- Nothing material; short park session. (No user correction.)
+
+**What we'll do differently:**
+- Before filing from a feature request: search open Issues for the same concern; if found, edit that Issue (and split siblings for new concerns) instead of opening a second umbrella. **Process note.**
+
+---
+
 ## 2026-09-03 — iPhone + eyes-closed Issues; AISDLC on #34
 
 Filed [#34](https://github.com/marekkowalczyk/breathe-cli/issues/34) (native iPhone app, parked) and [#35](https://github.com/marekkowalczyk/breathe-cli/issues/35) (CLI eyes-closed / stronger audio cues). User then required [AISDLC](https://academy.claude.com/courses/ai-native-sdlc-playbook) for building the app — encoded as process on #34 (intent → spec → plan → evals → human production gate). Pruned the roadmap `say` candidate into #35’s “already covered” table. No product code. Measured at close: 85 tests OK; tip `1.14.0 2026-08-31T09:29`; VERSION sync OK; nothing to release; unpushed 0 before this close commit.

@@ -22,6 +22,8 @@ From README / `CLAUDE.md` / the spec, good roadmap items tend to:
 | Multi-mode design | #16 |
 | Parked GUI / HRV / iPhone | #22, #28, #34 |
 | Eyes-closed / stronger audio cues | #35 |
+| Session completion chime | #36 |
+| Technique research (nose/mouth, chest/belly) | #37 |
 | Community Linux sound | #4, #6, #7 |
 | Screenshots | #9 |
 | Alt patterns research | #8 |

@@ -14,13 +14,13 @@ Handoff baton for the next cold start — **not** the product backlog.
 
 ## Completed last session
 
-- Filed only (no implementation): [#34](https://github.com/marekkowalczyk/breathe-cli/issues/34) iPhone app (parked; **AISDLC required** when building — see issue body); [#35](https://github.com/marekkowalczyk/breathe-cli/issues/35) eyes-closed / stronger audio cues (CLI).
-- Pruned roadmap `say` candidate → covered by #35.
-- Prior ship context still current: **v1.14.0** (Linux sound, omakase, elevator statement).
+- Refined [#35](https://github.com/marekkowalczyk/breathe-cli/issues/35) (eyes-closed: anticipatory pre-beep before IN/OUT cue).
+- Filed [#36](https://github.com/marekkowalczyk/breathe-cli/issues/36) (session completion chime) and [#37](https://github.com/marekkowalczyk/breathe-cli/issues/37) (research: nose/mouth + chest/belly for existing protocols).
+- No product code. Tip still **v1.14.0**.
 
 ## Immediate
 
-Nothing blocking. Optional lightest CLI UX: **#14** (bar visibility), **#33** (progress feel / fill policy), **#32** (finish clock), or **#35** (eyes-closed audio-first — real product slice, not park-only).
+Nothing blocking. Optional lightest product slices: **#14** (bar visibility), **#33** (progress feel), **#32** (finish clock), or **#35** (eyes-closed audio-first — real CLI slice). Research park: **#37** (docs/`science.md` only until findings land).
 
 Do **not** start iPhone app code from #34 without AISDLC `intent.md` → `spec.md` → `plan.md` and a human production gate.
 
@@ -48,9 +48,11 @@ Pointers only:
 - [GH #32](https://github.com/marekkowalczyk/breathe-cli/issues/32) — estimated session finish clock time
 - [GH #33](https://github.com/marekkowalczyk/breathe-cli/issues/33) — time progress bar behind / uneven jumps
 - [GH #34](https://github.com/marekkowalczyk/breathe-cli/issues/34) — idea: iPhone app (AISDLC when building)
-- [GH #35](https://github.com/marekkowalczyk/breathe-cli/issues/35) — eyes-closed mode + stronger audio cues
+- [GH #35](https://github.com/marekkowalczyk/breathe-cli/issues/35) — eyes-closed mode + pre-beep / stronger audio cues
+- [GH #36](https://github.com/marekkowalczyk/breathe-cli/issues/36) — session completion chime
+- [GH #37](https://github.com/marekkowalczyk/breathe-cli/issues/37) — research: nose/mouth + chest/belly (existing protocols)
 
-Community: #8 research, #9 screenshots, #11 Go rewrite Q — unchanged.
+Community: #8 research (alt patterns), #9 screenshots, #11 Go rewrite Q — unchanged.
 
 ## Current state
 
@@ -64,6 +66,7 @@ Community: #8 research, #9 screenshots, #11 Go rewrite Q — unchanged.
 
 ## Process notes
 
+- **Overlap → refine, don’t duplicate:** before filing from a feature request, search open Issues; if the same concern exists, edit that Issue and split siblings for new concerns — do not open a second umbrella.
 - **File-only / don’t implement:** when the user says park or Issues-only, open Issues (or stop) — no code, no design-doc commit, no drive-by fixes.
 - **Process on the Issue:** when the user attaches a build process to a parked idea (e.g. AISDLC on #34), update that Issue body with gates in the same turn — don’t park process only in chat or the wrong repo.
 - **Prune roadmap after filing:** after converting a `ROADMAP-CANDIDATES.md` item to an Issue, prune that candidate the same session/close.
